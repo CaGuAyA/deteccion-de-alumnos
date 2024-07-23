@@ -1,0 +1,18 @@
+div .contFormularios{
+    background-image: url('../images/login_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 50px);
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width:1050px) {
+    div .contFormularios {
+        height: calc(100vh - 10.5vh);
+    }
+}

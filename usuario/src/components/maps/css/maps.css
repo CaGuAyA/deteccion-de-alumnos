@@ -1,0 +1,38 @@
+.contenedor_mapa {
+    text-align: center;
+    display: grid;
+}
+
+.contenedor_datos_mapa {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor_datos_mapa input,
+.contenedor_datos_mapa button {
+    height: 35px;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.contenedor_datos_mapa input {
+    width: 89.5%;
+}
+
+.contenedor_datos_mapa button {
+    border-radius: 0px;
+    font-weight: bold;
+    background-color: rgb(191, 200, 206);
+}
+
+.contenedor_mapa #map {
+    width: 70%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.contenedor_datos_mapa button:hover {
+    cursor: pointer;
+    background-color: rgb(157, 166, 172);
+}

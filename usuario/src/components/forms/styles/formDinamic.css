@@ -1,0 +1,8 @@
+.form_dinamico {
+    display: flex;
+}
+
+.form_dinamico input {
+    width: 185px !important;    
+    padding: 10px 5px;
+}

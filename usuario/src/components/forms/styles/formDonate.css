@@ -1,0 +1,57 @@
+.formDonacion {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formDonArriba label {
+    padding-right: 1%;
+    justify-content: flex-start;
+}
+
+.formDonArriba select,
+.formDonacion input {
+    margin-right: 2%;
+}
+
+.formDonArriba input {
+    width: 16.5%;
+}
+
+.formDonacion input,
+.formDonacion select,
+.formDonacion button {
+    padding: 0.8%;
+}
+
+.formDonacion .estadoDonacion {
+    font-weight: bold;
+    border: none;
+    color: rgb(28, 110, 174);
+}
+
+.formDonacion label {
+    padding-top: 2%;
+    font-weight: bolder;
+}
+
+.formDonacion p {
+    margin-top: 15px;
+}
+
+.formDonacion button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 7px;
+    font-weight: 800;
+    border: none;
+    background-color: rgb(164, 197, 250);
+}
+
+.formDonacion button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(60, 168, 233);
+}

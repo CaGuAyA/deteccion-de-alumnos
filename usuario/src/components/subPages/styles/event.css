@@ -1,0 +1,59 @@
+.contenedor_ventos {
+    display: grid;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 92vh;
+    color: white;
+    transition: fadeIn 1s ease-in-out;
+    /*animation: slideInOut 1s ease-in-out; /* Aplica la animación */
+}
+
+
+@keyframes slideInOut {
+    0% {
+        opacity: 0; /* Comienza con opacidad 0 */
+        transform: translateX(100%); /* Empieza fuera de la pantalla hacia la derecha */
+    }
+    100% {
+        opacity: 1; /* Termina con opacidad 1 */
+        transform: translateX(0); /* Termina en su posición original */
+    }
+}
+
+.contenedor_ventos h2 {
+    margin-top: 2%;
+    margin-right: 25%;
+    margin-left: 9%;
+    font-size: 48px;
+}
+
+.contenedor_ventos p {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 24%;
+}
+
+.contenedor_ventos button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(54, 190, 95);
+    margin-left: 8%;
+    width: 125px;
+    height: 45px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.contenedor_ventos button:hover {
+    cursor: pointer;
+}

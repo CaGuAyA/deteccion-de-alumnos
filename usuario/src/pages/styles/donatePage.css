@@ -1,0 +1,56 @@
+div .contenedor_form_donaciones {
+    background-image: url('../images/donacion.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    width: 100%;
+    height: 115vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleFormDonacion {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.cuerpoFormDonar {
+    display: grid;
+    font-size: 15.5px;
+    font-weight: 900;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    background-color: rgba(218, 218, 218, 0.75);
+    width: 100%;
+    height: 685px;
+}
+
+.cantidadDonaciones {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.cantidadDonaciones label {
+    margin-right: 15px;
+}
+
+.cantidadDonaciones input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(121, 121, 121);
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+}
+
+.cont_form_donate {
+    display: flex;
+    justify-content: center;
+}

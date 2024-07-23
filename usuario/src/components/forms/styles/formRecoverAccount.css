@@ -1,0 +1,49 @@
+.recu_frase {
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+.form_recu {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_recu input {
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 6.5px;
+    margin: 2% 0px;
+    width: 65%;
+}
+
+.form_recu button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 126, 175);
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 6px;
+    width: 50%;
+    font-weight: 600;
+    font-size: 2.4vh;
+}
+
+.form_recu button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 65, 122);
+}
+
+.form_recu label {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.margenLogin a {
+    cursor: pointer;
+}

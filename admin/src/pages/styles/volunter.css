@@ -1,0 +1,11 @@
+.table_body_volunter {
+    text-align: center;
+}
+
+.table_body_volunter td{
+    font-size: 13.5px;
+}
+
+.table_body_volunter .tabla_boton {
+    border: none;
+}

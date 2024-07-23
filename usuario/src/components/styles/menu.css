@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav a,
+nav ul li a,
+nav ul li select {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+}
+
+nav ul li select option {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+nav a:hover,
+nav a.active,
+li a.active,
+li select.active,
+li a:hover,
+li select:hover {
+    color: rgb(209, 55, 86);
+    cursor: pointer;
+    border-bottom: 3px solid rgba(209, 55, 86, 0.801);
+}
+
+.inicio {
+    position: absolute;
+    margin: 9px 26px;
+    font-size: 16.4px;
+}
+
+.nav_toggle {
+    top: -12.5px;
+    display: none;
+}
+
+@media (max-width:1200px) {
+    nav ul li a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1050px) {
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(34, 33, 33, 0.6);
+        top: 65px;
+        left: 0;
+        transform: translateX(100%);
+        transition: all 0.8s;
+    }
+
+    nav ul li {
+        display: flex;
+        margin: 8px 0;
+        line-height: 30px;
+        justify-content: end;
+    }
+
+    nav ul li a,
+    nav ul li select {
+        margin-right: 20px;
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+        background: rgba(34, 33, 33, 0);
+    }
+
+    nav ul li select option {
+        cursor: pointer;
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    li select:hover,
+    li select.active,
+    li a:hover,
+    li a.active {
+        color: white;
+        border: none;
+        font-weight: bolder;
+        background-color: rgb(185, 148, 253);
+        transition: 1s;
+    }
+
+    .nav_toggle {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 15px;
+        border-style: groove;
+        width: 58px;
+        height: 58px;
+        transform: translateX(calc(90vw));
+    }
+
+    .nav_toggle:hover {
+        cursor: pointer;
+    }
+
+    .nav_toggle span {
+        width: 38px;
+        height: 5px;
+        background: black;
+        margin-bottom: 7px;
+        border-radius: 5px;
+        transform-origin: 5px 0px;
+        transition: all 0.5s linear;
+        margin-left: 5px;
+    }
+
+    .nav_toggle.open+ul {
+        transform: translateX(0%);
+    }
+
+    .nav_toggle.open>span {
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+
+    .nav_toggle.open>span:nth-child(2) {
+        display: none;
+    }
+
+    .nav_toggle.open>span:nth-child(3) {
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+}
+
+@media (max-width:770px) {
+    .nav_toggle {
+        transform: translateX(calc(85vw));
+        transition: all 0.6s;
+    }
+}
+
+@media (max-width:500px) {
+    .nav_toggle {
+        transform: translateX(calc(78vw));
+        transition: all 0.6s;
+    }
+}

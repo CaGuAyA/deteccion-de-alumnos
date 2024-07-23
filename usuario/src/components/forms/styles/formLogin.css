@@ -1,0 +1,135 @@
+.margenLogin {
+    display: grid;
+    text-align: center;
+    margin: 0px;
+    padding: 25px 20px;
+    background-color: rgba(193, 193, 193, 0.6);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formLog .show-password-btn {
+    color: white;
+    background-color: rgb(155, 178, 189);
+    border: none;
+    width: 50px;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+.formLog div #contraseña {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 34.5vh;
+}
+
+.formLog .show-password-btn:hover {
+    cursor: pointer;
+    background-color: rgb(125, 181, 207);
+}
+
+.margenLogin h3 {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.frase {
+    font-weight: bolder;
+    font-size: 17px;
+    margin-bottom: 14px;
+}
+
+.formLog {
+    display: grid;
+}
+
+.formLog input {
+    border: none;
+    border-radius: 5px;
+    margin: 2% 22%;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btnLog {
+    margin: 25px 150px;
+    padding: 8px 58px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 107, 152);
+}
+
+.btnLog:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(122, 199, 250);
+}
+
+.margenLogin a,
+.texto-olvidaste-contaseña,
+.formLog a {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.margenLogin a,
+.formLog a {
+    text-decoration: underline;
+}
+
+.margenLogin a:hover,
+.formLog a:hover {
+    color: rgba(67, 202, 255, 0.856);
+}
+
+.imagenGoogle {
+    vertical-align: middle;
+    width: 35px;
+    height: auto;
+    padding-right: 9px;
+}
+
+.vizulizador-contraseña-login {
+    display: none;
+}
+
+@media (max-width:1050px) {
+    .margenLogin {
+        padding: 10px 0px;
+        padding-bottom: 1px;
+    }
+
+    .margenLogin h3 {
+        font-weight: bolder;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .frase {
+        font-weight: bolder;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .formLog input {
+        border: none;
+        border-radius: 5px;
+        margin: 2% 25%;
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+    .btnLog {
+        margin: 25px 150px;
+        padding: 8px 58px;
+        font-size: 14px;
+    }
+}

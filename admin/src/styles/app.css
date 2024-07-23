@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor_dash {
+    display: flex;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.contenedor_dash nav {
+    background-color: #61a6e2;
+    width: 20%;
+}
+
+.contenedor_dash li {
+    display: grid;
+}

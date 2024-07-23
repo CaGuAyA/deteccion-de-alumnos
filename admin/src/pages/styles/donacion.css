@@ -1,0 +1,54 @@
+.contenedor_productos {
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Mukta", sans-serif;
+}
+
+.contenedor_productos {
+    overflow-x: auto;
+}
+
+thead td {
+    white-space: nowrap;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.contenedor_productos table,
+.contenedor_productos th,
+.contenedor_productos td {
+    font-size: 16px;
+    padding: 7px 15px;
+    border: 1px solid rgba(184, 184, 184, 0.76);
+    border-collapse: collapse;
+}
+
+.contenedor_productos thead {
+    text-align: center;
+    background-color: rgb(205, 218, 218);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.tabla_boton {
+    display: grid;
+    justify-content: center;
+}
+
+.tabla_boton button {
+    padding: 7px 8px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(157, 241, 157);
+    border: none;
+    border-radius: 5px;
+}
+
+.tabla_boton button:hover {
+    cursor: pointer;
+    background-color: rgb(88, 238, 88);
+}

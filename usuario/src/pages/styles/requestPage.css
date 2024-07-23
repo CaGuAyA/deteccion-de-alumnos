@@ -1,0 +1,85 @@
+.contenedor_inventario {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('../images/request.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    overflow: hidden;
+    width: 100%;
+    height: calc(100vh - 51px);
+    padding-bottom: 80px;
+}
+
+.contenedor_inventario h3 {
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+
+.contenedor_inventario thead {
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background: radial-gradient(circle, rgba(158, 47, 178, 0.85), rgba(158, 47, 178, 0.65), rgba(158, 47, 178, 0.65));
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.contenedor_inventario tbody tr {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.contenedor_inventario tbody {
+    background-color: white;
+}
+
+.contenedor_inventario table,
+.contenedor_inventario td,
+.contenedor_inventario tr {
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.contenedor_inventario table button {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0px 20px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(178, 185, 250);
+}
+
+.contenedor_inventario table button:hover {
+    cursor: pointer;
+    background-color: rgb(126, 138, 241);
+}
